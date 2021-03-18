@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website Demo</title>
+    <style>
+        .border{
+            background-color:#d9d9d9;
+            padding:5px;
+        }
+        .ftype{
+            position:absolute;
+            top:190px;
+            width:100%;
+            text-align:center;
+            font-size:27px;
+        }
+        .ptype{
+            text-align:left; 
+            padding:60px 70px;
+            font-size:24px;
+            color:#666;
+            font-family: sans-serif;
+
+        }
+
+        .hstyle{
+            background-image: url(Images/tree.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            text-align: center;
+            padding: 5px; 
+            color:#ffffff;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .fstyle{
+            background-image: url(Images/Australia2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-attachment: scroll;
+            text-align:center;
+            padding: 5px; 
+            color:#ffffff;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .img1, .img2, .img3, .img4, .img5 {
+          /* Set a specific min height */
+          min-height: 420px; 
+          /* Create the parallax scrolling effect */
+          position: relative;
+          opacity: 0.65;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .img1 {
+          background-image: url(Images/Canada1.jpeg);
+          color:#ff0000;
+        }
+
+        .img2 {
+          background-image: url(Images/Denmark1.jpg);
+          color:#0000ff;
+        }
+
+        .img3 {
+          background-image: url(Images/Sweden1.jpg);
+          color:#995c00;
+        }
+
+        .img4 {
+          background-image: url(Images/Norway1.jpg);
+          color:#6699ff;
+
+        }
+
+        .img5 {
+          background-image: url(Images/Australia1.jpg);
+          color:#ff00ff;
+        }
+        </style>
+</head >
+
+<!---------------------------------------------------------------------------------------------------------------->
+<body style="margin:0;height:100%"> 
+    <div class="hstyle">
+        <P><span style="font-size: 30px; font-style: oblique; font-weight:bold;">Quality of life</span><br>
+        <span style="font-size: 20px;">Every country has some pros & cons but these countries ensure the best qualty<br>of life that you can have if you imgrate to one of these nations.</span></p> 
+    </div>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <div class="img1">
+        <div class="ftype" >
+            <span  class="border">Canada</span> 
+        </div>
+    </div>
+
+    <div class="ptype" style="background-color:#ff99cc;">
+       <H1>Canada</H1>
+       <P>
+         <b>CAPITAL : </b><i>Ottawa</i> | 
+         <b>REGION : </b><i>North America</i> | 
+         <b>GDP PER CAPITA, PPP : </b><i>$49,690</i> | 
+         <b>GDP : </b><i>$1.7 trillion</i> | 
+         <b>POPULATION : </b><i>37,058,856</i> | 
+         <b>AREA : </b><i>9,984,670 SQ.KM</i>
+        </P>
+    </div>
+   <!------------------------------------------------------------------------------------------------------------>
+
+    <div class="img2">
+        <div class="ftype">
+            <span class="border">Denmark</span> 
+        </div>
+    </div>
+
+    <div class="ptype" style="background-color:#ccffff;">
+        <H1>Denmark</H1>
+       <P>
+         <b>CAPITAL : </b><i>Copenhagen</i> | 
+         <b>REGION : </b><i>Europe</i> | 
+         <b>GDP PER CAPITA, PPP : </b><i>$52,279</i> | 
+         <b>GDP : </b><i>$352.1 billion</i> | 
+         <b>POPULATION : </b><i>5,797,446</i> | 
+         <b>AREA : </b><i>43,094 SQ.KM</i>
+        </P>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------>
+    <div class="img3">
+        <div class="ftype">
+            <span class="border">Sweden</span> 
+        </div>
+    </div>
+
+    <div class="ptype" style="background-color:#ffad33;">
+        <H1>Sweden</H1>
+       <P>
+         <b>CAPITAL : </b><i>Stockholm</i> | 
+         <b>REGION : </b><i>North America</i> | 
+         <b>GDP PER CAPITA, PPP : </b><i>$53,652</i> | 
+         <b>GDP : </b><i>551.0 billion</i> | 
+         <b>POPULATION : </b><i>10,183,175</i> | 
+         <b>AREA : </b><i>450,295 SQ.KM</i>
+        </P>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------>
+    <div class="img4">
+        <div class="ftype">
+            <span class="border">Norway</span> 
+        </div>
+    </div>
+
+    <div class="ptype" style="background-color:#80aaff;">
+        <H1>Norway</H1>
+       <P>
+         <b>CAPITAL : </b><i>Oslo</i> | 
+         <b>REGION : </b><i>Europe</i> | 
+         <b>GDP PER CAPITA, PPP : </b><i>$74,357</i> | 
+         <b>GDP : </b><i>$434.8 billion</i> | 
+         <b>POPULATION : </b><i>5,314,336</i> | 
+         <b>AREA : </b><i>323,802 SQ.KM</i>
+        </P>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------>
+    <div class="img5">
+        <div class="ftype">
+            <span class="border">Australia</span> 
+        </div>
+    </div>
+
+    <div class="ptype" style="background-color:#ffe6ff;">
+        <H1>Australia</H1>
+       <P>
+         <b>CAPITAL : </b><i>Canberra</i> | 
+         <b>REGION : </b><i>Oceania</i> | 
+         <b>GDP PER CAPITA, PPP : </b><i>$52,379</i> | 
+         <b>GDP : </b><i>$1.4 trillion</i> | 
+         <b>POPULATION : </b><i>24,992,369</i> | 
+         <b>AREA : </b><i>7,741,220 SQ.KM</i>
+        </P>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <div class="fstyle">
+        <H1>Feedback</H1>
+        <form action="" method="">
+      
+              <label for="name">Name : </label>
+              <input type="text" name="Name" id="name" placeholder="Eg: Jenny Yu">
+              <br><br>
+      
+              Email Id :
+              <input type="email" nmae="Eaddress" id="email" placeholder="Eg: abc@gamilcom">
+              <br><br>
+
+              <label for="Des">Please select the country you want to go :</label>
+              <select name="Country" id="Des">
+                  <option value=""><i>Select any one</i></option>
+                  <option value="Canada"><b>Canada</b></option>
+                  <option value="Denmark"><b>Denmark</b></option>
+                  <option value="Sweden"><b>Sweden</b></option>
+                  <option value="Norway"><b>Norway</b></option>
+                  <option value="Australia"><b>Australia</b></option>
+              </select>
+              <br><br>
+
+              <label for="sug" style="color: #666;">Any Suggestion/Feedback : </label>
+              <input type="text" name="fb" id="sug" size="55" placeholder="What are the improvement you want from us/any suggestion/s">
+              <br><br>
+
+              <input type="Submit" value="Submit"> &emsp;
+              <input type="reset" value="Cancel">               
+          </form>
+    </div>
+</body>
+</html>
